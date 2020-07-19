@@ -1,0 +1,576 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #656c72;
+    
+}
+@media (max-width:315px){
+    .body{
+        display: flex !important;
+        padding:0 !important;
+        margin: 0 !important;
+    }
+   
+    .phon1 .colr .rig{margin-left: 30px !important;}
+}
+@media(min-width:260px)and (max-width:282px){
+    .phon1 .play i{
+        font-size: 9px !important;
+        width: 100% !important;
+        margin-left: -2px !important;
+        margin-right: -2px !important;}
+       
+       .phon1 .play .text{font-size: 20px !important;
+        margin-left: 2px !important;
+        margin-right: 2px !important;}
+}
+@media (max-width:258px){
+    .body{
+        display: flex !important;
+        padding:0 !important;
+        margin: 0 !important;
+    }
+    .phon1 h2{font-size: 8px !important;}
+    .phon1 .im{margin-left: -7px !important;height: 60px !important;}
+    .phon1{
+        display: block !important;
+    }
+    .phon2{
+        display: block !important;
+    }
+    .phon1 .colr .rig{margin-left: 30px !important;}
+    .phon1 .play i{
+        font-size: 8px !important;
+        justify-items: center;
+        width: 100% !important;
+       
+        display: flexbox !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;}
+        .phon1 .play .color{margin-left: -10px !important;}
+       
+       .phon1 .play .text{font-size: 20px !important;margin-left: 0px !important;
+        margin-right: 2px !important;}
+        .phon2 .gr i{margin-left: 5px !important;}
+        .phon2 .ima{margin-left: -6px !important;
+        height: 60px !important;}
+        .phon2 .SS{font-size: 8px !important;}
+        .phon2 .tex{margin-left: -6px !important;}
+        .phon2 .u{font-size:6px !important}
+        .phon2 .p{font-size: 5px !important;}.phon2 p{font-size: 5px !important;}
+        .phon2 h6{font-size: 6px !important;}
+
+}
+@media(min-width:373px)and(max-width:439px){
+    .phon1{display: flexbox !important;width: 100% !important;
+   }
+   .phon2{display: flexbox !important;width: 100% !important;}
+            
+}
+/* Strat Phon1 */
+@media(max-width:358px){
+    .body{
+        margin-top: -20px !important;
+        display:flex !important;
+        display: flexbox !important;
+        justify-items: center;
+    }
+    .phon1{
+        width: 100% !important;
+    }
+    .phon2{
+        width: 100% !important;
+    }
+    .im{
+        height: 120px !important;
+    }
+    .phon1 h5,.phon1 h6{
+        font-size: 13px;
+    }
+    .phon1 p{
+       display: flex !important;
+       
+    }
+    .phon1 .o1{margin-left: 15px !important;}
+    .phon1 .o{
+        margin-left: -8px !important;   }
+    .phon1 .play i{
+        font-size: 20px !important;
+        justify-items: center;
+        width: 100% !important;
+        
+        display: flex !important;}
+       .phon1 .play .text{font-size: 25px !important;}
+}
+/* Start color */
+.c{
+    color: blanchedalmond; 
+}
+/* End color */
+text{
+    text-align: center;
+    margin: auto !important;
+}
+
+.phon1 .colr{
+background-color: black; 
+color: blanchedalmond;
+font-size: 16px !important;
+border-radius: 10px;
+ width: 200% !important;
+padding: 10px   !important;
+margin-bottom: 70px !important; 
+   }
+/* Media */
+   @media (max-width:992px){
+       .phon1{
+           width: 100% !important;
+           left:-108px !important;
+
+       }
+       .phon1 .colr{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+            display: flexbox !important;
+           font-size: 14px !important;
+           width: 100% !important;
+       }
+       .phon1 .row .progress{
+        width: 70% !important;
+       }
+       .phon1 .play{
+           display: flex !important;
+           width: 100% !important;
+       }}
+ /* Media */
+.lef{
+    margin-right: 75px !important;
+}
+.rig{
+    margin-left: 75px !important;  
+}
+ /* Media */
+@media(min-width:992px) and (max-width:1200px){
+    .phon1{display: flexbox !important;}
+    .lef{
+        margin-right: 30px !important;
+    }
+    .rig{
+        margin-left: 30px !important;  
+    }
+    .phon1 .im{
+        height: 180px;
+    }
+    .phon1 .row .progress{
+        width: 75%;
+    }
+    .phon1 .o1{
+        margin-left: 35px !important;
+    }
+    .phon1 .o{
+margin-left: -2px !important;
+    }
+    .phon1 h6
+    {margin-bottom: 10px !important;}
+    .phon1 p{
+        margin-bottom: 40px !important;
+    }
+    .phon1 .play { 
+       width: 120% !important;
+       margin-top: 40px !important;
+      direction: ltr !important;
+      float: left;
+      
+        font-size: 18px !important;
+       
+    }
+    .phon1 .play i{
+    margin: auto !important;}
+    .phon1 .play .text{
+       
+        font-size: 32px !important;
+    }
+    
+}
+ /* Media */
+.phon1{
+   
+    background-image: linear-gradient(transparent, #352828), url("../img/pho.jpg");
+    background-position: center;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 550px;
+    margin-left: 110px;
+    margin-right: 130px;
+    top: 60px;
+    border-radius: 10px;
+    box-shadow: 9px 3px 80px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+   
+}
+.we{
+    margin-left: -20px !important;
+}
+.o{
+    margin-left: 120px !important;
+}
+.o1{
+    margin-left: 10px !important;  
+    margin-right: 160px !important;   
+}
+.phon1 .row .progress{
+    margin-left:10px !important ;
+    margin-right:10px !important;
+    padding: 10px 0;
+    display: block;
+    margin:auto !important;
+    background: none;
+}
+.progress-bar-wrap{
+   
+   width: 350px;
+   margin: auto !important;
+    background:rgb(51, 50, 50) ;
+    
+}.progress-bar{
+    width:120px;
+    height: 7px;
+    transition: .9s;
+    background-color:rgb(177, 72, 180) ;
+  
+}
+
+.text{
+    margin-left: 30px !important;
+    margin-right:30px !important;
+    font-size: 50px !important;
+}
+.phon1 .play{
+    margin-top: 10px !important;
+}
+.phon1 .play i{
+    margin: auto !important;
+    font-size: 25px;
+    margin-right: 30px !important;
+    margin-left: 11px !important;
+}
+.im{
+    margin: auto !important;
+    margin-left: 70px !important;
+    width:60% !important;
+    height: 200px;
+    margin-bottom: 30px !important;
+    
+}
+ /* Media */
+@media(min-width:992px) and (max-width:1200px){
+    .phon1{
+        width: 100% !important;
+    }
+   
+    .im{
+        height: 140px !important;
+    }
+    }
+     /* Media */
+       /* End Phon1 */
+       /* Start Phon2 */
+.phon2{
+    width: 25%;
+    height: 550px;
+    background-color: black;
+    display: block;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+ /* Media */
+@media(min-width:992px) and (max-width:1200px){
+    
+    .phon2{
+       
+        width: 100% !important;
+    }
+    .phon2 .ima{
+        margin: auto !important;
+        width: 50% !important;
+        margin-left: 60px !important;
+        height: 140px !important;
+       margin-top: 8px !important;
+       margin-bottom: 20px !important;
+    }
+    .phon2 .m,.phon2 .mm{
+       display: flexbox !important;
+    }
+    .phon2 .mm{margin-left: 90px !important;}
+    .phon2 .p{
+        font-size: 16px;
+    }
+    .u{
+        margin-top: 10px !important;
+    }
+    .phon2 .gr {
+       margin-top: 30px !important;
+    }
+    .phon2 p,.phon2 h5{
+        margin: auto !important;
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+    }
+    
+
+   
+}
+ /* Media */
+.phon1 .colr{
+    width: 100%;
+}
+ /* Media */
+@media (max-width:992px){
+    .phon2{
+       
+        width: 100% !important;
+
+    }
+    .phon2 .w{
+        width: 40% !important;
+    }
+    .phon2 .ss{
+        font-size: 14px;
+        width: 50% !important;
+    }
+    .gr{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        width: 100%;
+        display: flexbox !important;
+        margin-bottom: 2px;
+        width: 100% !important;
+    }
+    .ima{
+        height: 105px !important;
+        margin-top: 10px !important;
+    }
+    .phon2 .p{
+        display: flex !important;
+    }
+    .phon2 h5{
+        margin-bottom: 2px !important;
+    }
+   
+   
+}
+ /* Media */
+.ima{
+    margin-left: 80px !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    height: 160px;
+    width:50%;
+    border-radius: 50%;
+}
+
+.phon2 h5{
+    margin-top: 14px !important;
+margin: auto !important;
+margin-bottom:6px !important;
+margin-left: 110px !important;
+}
+.phon2 .m{
+    margin-left: 9px !important;
+    margin-right: 155px;
+    color: lavender;
+    margin-top: 10px;
+}
+.phon2 .mm{
+    margin-left: 155px;
+    color: lavender;
+    margin-top: 10px;
+}
+.color{
+    color: rgb(177, 72, 180);
+}
+.phon2 .p{
+    background-image:linear-gradient(transparent,rgb(206, 75, 156));
+    width: 35%;
+   
+    padding: 10px 20px 10ox 20px !important;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-right: 20px !important;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto !important;
+
+}
+.phon2 .w{
+    height: 60px;
+}
+.phon2 h6{
+    font-size:13px;
+    margin-right: 15px;
+}
+.phon2 .i{
+    margin-top: -6px !important;
+  margin-left: 10px !important;
+   height: 20px;
+   width: 28px;
+    background-color:  rgb(83, 77, 77);
+    border-radius: 8px;
+}
+.phon2 .j{
+    margin-top: -6px !important;
+    font-size: 13px;
+}
+.gr{
+    background-color: rgb(83, 77, 77);
+    border-radius: 10px;
+    padding: 6px;
+    margin: auto !important;
+}
+.gr i{
+    color: lavender;
+    font-size: 20px;
+    text-align: center !important;
+    margin: auto !important;
+    margin-left: 50px !important;
+}
+ 
+.u{
+    margin-top: 10px;
+}
+ /* Media */
+@media(max-width:358px){
+    .phon2{
+        display: flexbox !important;
+    }
+    .ima{
+      height: 70px !important;
+        display: flexbox !important;
+    }
+    .gr{
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+    .phon2 .p{
+      font-size: 12px !important;
+    }
+    .phon2 h5{
+        font-size: 12px !important;
+    }
+    .phon2 ss{
+        font-size: 13px !important;
+    }
+    .gr i{
+        font-size: 13px !important;
+    }
+    
+    .phon2 .mm{
+      margin-left: 20px !important;  
+    }
+}
+ /* Media */
+ @media(min-width:440px)and (max-width:500px){
+    .phon1 .colr .lef{
+        margin-left: 10px !important;
+        margin-right: 130px !important;
+             }
+             .phon1 .colr .rig{
+                margin-right: 10px !important;
+                margin-left: 130px !important;
+             }
+            
+             .phon1 .play i{font-size: 30px !important;
+            margin: 25px !important;}
+            .phon1 .play .text{
+                font-size: 45px !important;
+              margin-left:45px !important ;
+              margin-right:45px !important ;  
+            }
+            .phon2 .mm{margin-left: 240px !important;}
+ .phon2 .gr i{margin-left: 80px !important;}}
+ @media(min-width:500px)and (max-width:768px){
+    .phon1{display: flexbox !important;}
+    .phon2{display: flexbox !important;}
+     .phon1 .colr .lef{
+margin-left: 10px !important;
+margin-right: 150px !important;
+     }
+     .phon1 .colr .rig{
+        margin-right: 10px !important;
+        margin-left: 150px !important;
+     }
+     .phon1 .play {
+         width: 140% !important;
+         margin: auto !important;
+     }
+     .phon1 .play i{font-size: 35px !important;
+    margin: 30px !important;}
+    .phon1 .play .text{
+        font-size: 55px !important;
+      margin-left:50px !important ;
+      margin-right:50px !important ;  
+    }
+    .phon1 .o1{margin-left: 80px !important;}
+    
+    .phon2 .mm{margin-left: 280px !important;}
+    .phon2 .gr i{margin-left: 90px !important;}
+ }
+ /* Media */
+ @media(min-width:766px)and (max-width:992px){
+     .body{margin: 0 !important;
+    padding:0 !important;}
+    .phon1{display: flexbox !important;}
+    .phon2{display: flexbox !important;}
+    .phon1 .colr .lef{
+        margin-left: 10px !important;
+        margin-right: 230px !important;
+             }
+             .phon1 .colr .rig{
+                margin-right: 10px !important;
+                margin-left: 230px !important;
+             }
+             .phon1 .play {
+                 width: 140% !important;
+                 margin: auto !important;
+             }
+             .phon1 .play i{font-size: 35px !important;
+            margin: 40px !important;}
+            .phon1 .play .text{
+                font-size: 55px !important;
+              margin-left:50px !important ;
+              margin-right:50px !important ;  
+            }
+            .phon1 .o1{margin-left: 120px !important;}
+            .phon2 h5{margin-left: 210px !important;}
+            .phon2 .mm{margin-left: 450px !important;}
+            .phon2 .gr i{margin-left: 120px !important;}
+ }
+/* End Phon2 */
+@media (max-width:219px){
+    .body{
+        display: flex !important;
+        padding:0 !important;
+        margin: 0 !important;
+    }
+    
+    .phon1 .colr .rig{margin-left: 30px !important;}
+    .phon1 .play i{
+        font-size: 8px !important;
+        justify-items: center;
+        width: 100% !important;
+       
+        display: flex !important;
+        margin-left: 2px !important;
+        margin-right: 2px !important;}
+       
+       .phon1 .play .text{font-size: 20px !important;margin-left: 0px !important;
+        margin-right: 1px !important;}
+
+}
